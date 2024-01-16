@@ -1,5 +1,4 @@
-Logistic and Shipping Hub - React Web Application
-Group - 22 
+Logistic and Shipping Hub - MERN STACK Web Application
 
 1. How many total lines of code written?
 -> 5500
@@ -44,20 +43,6 @@ Group - 22
 
     -> 1. Upon selecting the "NearBy" option on the header, the system retrieves the user's live location, displaying real-time nearby shipping stores.
     -> 2. Users can input a specific location and click "Locate" to view real-time available shipping stores in their specific location.
-
-    2.8 Knowledge Graph Searches
-
-    -> We have not implemented Knowledge Graph Search.
-    -> We tried implementing OpenAI as a feature but then OpenAI API is paid and have to buy credits to fetch responses.
-
-
-3. What are the Assignments features that are NOT implemented?
-
--> Since our web application do not have any products so we have not used any feature that ecommerce web application usses. We have not incorporated Twitter searches within the Logistic and Shipping Hub application as they are unrelated to our project.
-
-4. What are the Assignments features that are attempted but NOT functional?
-
--> We tried to implement the Shipping and Logistic Stores recommendation and reviews using the Yelp API, we have tried ruunig that API on Yelp Fusion web portal and on Postman, but it was giving error during the fetching data. 
 
 
 
