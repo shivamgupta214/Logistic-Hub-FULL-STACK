@@ -9,7 +9,7 @@ const EventFinder = () => {
   const fetchEvents = async (latitude, longitude) => {
     try {
       const response = await fetch(
-        'https://app.ticketmaster.com/discovery/v2/events.json?latlong=41.88033,-87.68765&apikey=YjnDoliPxECgE2KIY96NZGEqKpKzHKeZ' );
+        'https://app.ticketmaster.com/discovery/v2/events.json?latlong=41.88033,-87.68765&apikey=//YourAPIKEy' );
       const data = await response.json();
       if (data._embedded && data._embedded.events) {
         setEvents(data._embedded.events);
