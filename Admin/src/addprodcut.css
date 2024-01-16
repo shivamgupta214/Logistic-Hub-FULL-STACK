@@ -1,0 +1,19 @@
+/* App.css or YourComponent.css */
+
+/* Container for the left navigation bar */
+.addproduct{
+    height: 100%;
+    width: 900px;
+    right: 10;
+    top: 20%;
+    left: 10;
+    position: relative;
+
+    margin-left: 300px;
+    /* background-color: #333; Adjust the background color as needed */
+    padding-top: 20px;
+
+    margin-right: 20px ;
+    margin-bottom: 100px;
+    background-color:gray;
+  }

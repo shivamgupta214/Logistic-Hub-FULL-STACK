@@ -1,0 +1,57 @@
+/* 
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  svg {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .bar {
+    fill: steelblue;
+    transition: fill 0.3s ease;
+  }
+  
+  .bar:hover {
+    fill: dodgerblue;
+  } */
+/* UserChart.css */
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust to your desired height */
+  }
+  
+  .chart-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  svg {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bar {
+    fill: steelblue;
+    transition: fill 0.3s ease;
+  }
+  
+  .bar:hover {
+    fill: dodgerblue;
+  }
+    

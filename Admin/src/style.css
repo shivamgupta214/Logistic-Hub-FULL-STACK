@@ -1,0 +1,84 @@
+/* styles.css */
+.prd-container{
+   
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 20%;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #ccc;
+  margin-bottom: 100px;
+}
+.prd-container h1{
+margin-bottom: 1%;
+}
+/* Container for the grid */
+.prd-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  gap: 20px; /* Adjust the gap between items */
+}
+
+/* styles.css */
+
+/* Container for the grid */
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+gap: 20px; /* Adjust the gap between items */
+}
+
+/* Style for each grid item */
+.grid-item {
+list-style: none;
+border: 1px solid #ddd; /* Add border for separation */
+padding: 10px;
+text-align: center;
+}
+
+/* Style for the product image */
+.grid-item img {
+width: 100%; /* Set a fixed width of 100% for responsiveness */
+height: 450px; /* Set a fixed height for all images */
+object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+/* Style for buttons */
+.btn-buy,
+.btn-review {
+padding: 10px;
+margin-top: 10px;
+background-color: #007bff;
+color: #fff;
+border: none;
+cursor: pointer;
+border-radius: 4px;
+}
+
+.btn-buy:hover,
+.btn-review:hover {
+background-color: #0056b3;
+}
+
+/* style.css */
+
+.notification-container {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background: rgba(0, 0, 0, 0.5);
+z-index: 9999;
+}
+
+.notification {
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

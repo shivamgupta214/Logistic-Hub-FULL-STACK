@@ -1,0 +1,123 @@
+/* 
+.header {
+    background-color:#6a0808;
+    padding: 10px;
+  }
+  
+  .App-header {
+    text-align: center;
+  }
+  
+  #logo {
+    margin: 0 auto;
+  }
+  #logo table{
+    margin:0 auto;
+  }
+  
+  #logo h1 a {
+    color: #000;
+    text-decoration: none;
+    font-size: 40px;
+  }
+  
+  #logo p em {
+    color: #000;
+    font-size: 1.2em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.8em;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: none;
+    color:#000;
+  }
+  
+  .nav1 ul li a{
+    color:#fff;
+    font-size: 1.5em;
+  }
+  
+  .nav1 ul li a:hover {
+    text-decoration: none;
+    color:#fff;
+  }
+   */
+
+.header {
+    background-color: #3498db; /* Updated to a more user-friendly color */
+    padding: 15px; /* Increased padding for better spacing */
+    color: #fff; /* Changed text color to white for better contrast */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow */
+  }
+  
+  .App-header {
+    text-align: center;
+  }
+  
+  #logo {
+    width: 100px;
+    height: 50px;
+    padding: 0px 20px 0px 20px;
+  }
+  
+  #logo h1 a {
+    color: #fff; /* Changed text color to white for better visibility */
+    text-decoration: none;
+    font-size: 36px; /* Slightly reduced font size for better balance */
+  }
+  
+  #logo p em {
+    color: #fff; /* Changed text color to white */
+    font-size: 1.2em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Added top margin for better spacing */
+    width: fit-content;
+  }
+  
+  nav ul li {
+    margin: 0 15px; /* Increased the margin between navigation items */
+    display: flex;
+  }
+  
+  nav ul li a {
+    color: #bd0d0d; /* Changed text color to white */
+    text-decoration: none;
+    font-size: 1.6em; /* Adjusted font size for better readability */
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover for better feedback */
+    }
+  
+  .nav1 ul li a {
+    color: #ffffff; /* Changed text color to a contrasting color */
+    font-size: 1.5em;
+    display: flex;
+  }
+  
+  .nav1 ul li a:hover {
+    text-decoration: underline; /* Underline on hover for better feedback */
+  }
+  

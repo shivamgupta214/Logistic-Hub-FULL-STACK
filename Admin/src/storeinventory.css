@@ -1,0 +1,110 @@
+/* Add some basic styling for better UX */
+div {
+    margin: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+/* Add these styles to your existing CSS file or create a new one for modals */
+
+/* Modal Styles */
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Close button styles */
+  .modal-content button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .modal-content button:hover {
+    background-color: #0056b3;
+  }
+  
+ /* Style for the radio container */
+.radio-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style for each radio button */
+  .radio-container div {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the radio input */
+  .radio-container input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Style for the radio label */
+  .radio-container label {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* Style for the selected radio button label */
+  .radio-container input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: #007bff; /* Change color based on your preference */
+  }
+  

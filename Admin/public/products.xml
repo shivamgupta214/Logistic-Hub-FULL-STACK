@@ -1,0 +1,88 @@
+<products>
+
+  <category name="doorbells">
+
+    <product>
+      <name>Smart Door Lock 1</name>
+      <description>tesal smart doorlock.</description>
+      <price>149.99</price>
+      <manufacturer>Tesla</manufacturer>
+      <image>doorbell1.jpeg</image>
+    </product>
+
+     <product>
+      <name>Smart Door Lock 2</name>
+      <description>Rivian smart doorlock gen 2.</description>
+      <price>29.99</price>
+      <manufacturer>Rivian</manufacturer>
+      <image>doorbell3.jpeg</image>
+    </product>
+
+    <product>
+      <name>Smart Door Lock 3</name>
+      <description>Amazon v3 doorlock.</description>
+      <price>399.99</price>
+      <manufacturer>Amazon</manufacturer>
+      <image>doorbell3.jpeg</image>
+    </product>
+
+    <product>
+      <name>Smart Door Lock 4</name>
+      <description>Ring doorlock.</description>
+      <price>999.99</price>
+      <manufacturer>Ring</manufacturer>
+      <image>doorbell4.jpeg</image>
+    </product>
+
+    <product>
+      <name>Smart Door Lock 5</name>
+      <description>Hp gen3 doorlock.</description>
+      <price>299.99</price>
+      <manufacturer>HP</manufacturer>
+      <image>doorbell5.jpeg</image>
+    </product>
+
+  </category>
+  
+  <category name="doorlocks">
+    <product>
+      <name>Smart Door Lock 1</name>
+      <description>tesal smart doorlock.</description>
+      <price>149.99</price>
+      <manufacturer>Tesla</manufacturer>
+      <image>doorlock1.webp</image>
+    </product>
+
+     <product>
+      <name>Smart Door Lock 2</name>
+      <description>Rivian smart doorlock gen 2.</description>
+      <price>29.99</price>
+      <manufacturer>Rivian</manufacturer>
+      <image>doorlock2.webp</image>
+    </product>
+
+    <product>
+      <name>Smart Door Lock 3</name>
+      <description>Amazon v3 doorlock.</description>
+      <price>399.99</price>
+      <manufacturer>Amazon</manufacturer>
+      <image>doorlock3.webp</image>
+    </product>
+
+    <product>
+      <name>Smart Door Lock 4</name>
+      <description>Ring doorlock.</description>
+      <price>999.99</price>
+      <manufacturer>Ring</manufacturer>
+      <image>doorlock4.webp</image>
+    </product>
+
+    <product>
+      <name>Smart Door Lock 5</name>
+      <description>Hp gen3 doorlock.</description>
+      <price>299.99</price>
+      <manufacturer>HP</manufacturer>
+      <image>doorlock5.jpg</image>
+    </product>
+</products>
+
