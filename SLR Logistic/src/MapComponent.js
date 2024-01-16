@@ -12,7 +12,7 @@ const StoreMap = () => {
     getLocation();
     const script1 = document.createElement('script');
     script1.src =
-      'https://maps.googleapis.com/maps/api/js?key=AIzaSyCzX6Bj4xArtu8k9zUDFs2DlQRWM-nlZ4w&callback=initMap&libraries=places,geometry';
+      'https://maps.googleapis.com/maps/api/js?key=//YourAPIKEY&callback=initMap&libraries=places,geometry';
 
     script1.async = true;
     script1.defer = true;
