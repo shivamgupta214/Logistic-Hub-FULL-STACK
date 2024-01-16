@@ -13,7 +13,7 @@ const MapContainer = () => {
     try {
       // Fetch nearby stores using Google Places API
       const response = await axios.get(
-        `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${center.lat},${center.lng}&radius=${radius * 0}&type=store&keyword=UPS|FedEx|USPS&key=AIzaSyA296DVdQdQwLQl7tn6E0DhazcbnTtc_eg`
+        `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${center.lat},${center.lng}&radius=${radius * 0}&type=store&keyword=UPS|FedEx|USPS&key=//YourAPIKEY`
       );
 
       // Extract store details from the response
